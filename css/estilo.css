@@ -1,0 +1,416 @@
+#principal {
+	width: 1100px;
+	height: auto; overflow: hidden;
+	border: 2px solid #003;
+	margin: auto;
+
+}
+header {
+	width: 900px;
+	height: 200px;
+	border: 0px solid #000;
+
+	}
+
+		#logo {
+				width:400px;
+				height: 200px;
+				border: 0px solid #000;
+				float: left;
+		}
+#titulo {
+
+	width: 450px;
+	height: 100px;
+	border: 0px solid #000;
+	float: right;
+	margin-top: 50px; 
+	text-align: center;
+}
+#inicio {
+
+	margin-top: 10px;
+	width: 900px;
+	height: 300px;
+}
+/* menu */
+
+.menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+
+}
+
+.menu ul li {
+ background-color:#2e518b;
+}
+.menu ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+ font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+.menu ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+}
+.menu ul li:hover {
+ background:#5b78a7;
+}
+
+.menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+}
+.menu ul ul li {
+ float:none;
+ width:150px
+}
+.menu ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+.menu ul li:hover > ul {
+ display:block;
+}
+
+#tematica{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 200px; 
+}
+#tematicaizqui{
+	width: 600px; 
+	height: 300px;
+	border: 0px solid #003;
+	float: left;
+	text-align: center;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-size: 12pt;
+	margin-top: 50px; 
+
+}
+#tematicadere{
+	width: 300px;
+	height: 300px;
+	border: 0px solid #000;
+	float: right;
+	margin-top: -300px; 
+}
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 200px; 
+}
+#infotitulo{
+font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-size: 12pt;
+}
+#izqui{
+	width: 600px; 
+	height: 400px;
+	border: 0px solid #003;
+	float: left;
+	
+	margin-top: 50px; 
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-size: 12pt;
+	text-align: justify;
+
+}
+#dere{
+	width: 400px;
+	height: 400px;
+	border: 0px solid #000;
+	float: right;
+	margin-top: 50px; 
+}
+#objetivos{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 5px;
+}
+#objetitulo{
+font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-size: 12pt;
+}
+
+#objeizqui{
+	width: 380px;
+	height: 300px;
+	border: 0px solid #003;
+	float: left;
+	margin-top: 50px;
+}
+#objedere{
+	width: 600px;
+	height: 300px;
+	border: 0px solid #003;
+	float: right;
+	margin-top: 50px;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-style: justify;
+	font-size: 12pt;
+}
+
+#infoaprobacion{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 70px; 
+}
+#contenedorizqui{
+	width: 500px; 
+	height: 550px;
+	border: 0px solid #003;
+	float: left;
+	text-align: justify;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-size: 12pt;
+}
+#dere{
+	width: 380px;
+	height: 300px;
+	border: 0px solid #000;
+	float: right;
+	margin-top: 50px; 
+}
+#archivos{
+	width: 600px;
+	height: auto; overflow: hidden;
+	text-align: left;
+	margin-top: 10px;
+	float: left;
+}
+
+#enunciado{
+	border: 0px solid #003;
+	width: 350px;
+	height: auto; overflow: hidden;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	float: right;
+	text-align: center;
+	margin-top: 210px;
+	padding: 10px 20px 10px 20px; 
+}
+
+.leer---mas{
+width: 100px;
+height: 10px;
+margin-top: -600;
+text-decoration: none;
+float: right;
+border: 2px solid #006699;
+padding: 10px 20px 10px 20px;
+margin: 5px;
+background-color: #D7BDE2
+} 
+
+
+#infodefinicion{
+	width: 950px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 70px; 
+	padding: 10px 20px 10px 20px; 
+}
+#definicionizqui{
+	width: 400px; 
+	height: 300px;
+	border: 0px solid #003;
+	float: left;
+	
+}
+#definiciondere{
+	width: 450px;
+	height: 300px;
+	border: 0px solid #000;
+	float: right;
+	text-align: justify;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-size: 12pt;
+	margin-top: 10px;
+	padding: 10px 20px 10px 20px;  
+}
+#definiciontitulo{
+	font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-size: 12pt;
+}
+
+#infoplaneacion{
+	width: 980px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 30px; 
+}
+#planeacionizqui{
+	width: 950px; 
+	height: auto; overflow: hidden;
+	border: 0px solid #003;
+	text-align: justify;
+	padding: 10px 20px 10px 10px;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-size: 12pt;
+}
+#planificaciontitulo{
+	font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-size: 12pt;
+}
+
+#infocierre{
+	width: 950px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 60px; 
+}
+#cierreizqui{
+	width: 600px; 
+	height: auto; overflow: hidden;
+	border: 0px solid #003;
+	float: left;
+	text-align: justify;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-size: 12pt;
+	margin-top: 5px;
+	padding: 10px;  
+}
+	
+#cierredere{
+	width: 310px;
+	height: 350px;
+	border: 0px solid #000;
+	float: right;
+	margin-top: 150px;
+}
+#cierretitulo{
+font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-size: 12pt;
+}
+	
+
+#ejecuciondere{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	text-align: justify;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-size: 12pt;
+	margin-top: 10px;
+	padding: 10px 20px 10px 20px;  
+}
+#ejecuciontitulo{
+	font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-size: 12pt;
+}
+#multimediaplaneacion{
+width: 980px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 50px; 
+	text-align: center;
+	padding: 20px 10px 10px 20px;  
+}
+
+#multiizqui{
+width: 480px;
+	height: 400px;
+	border: 0px solid #000;
+	margin-top: 20px; 
+	float: right;
+}
+#multidere{
+	width: 480px;
+	height: 400px;
+	border: 0px solid #000;
+	margin-top: 20px; 
+	float: left;
+}
+#audioapro{
+	width: 980px;
+	height: auto; overflow: hidden;
+	border: 1px solid #000; 
+	margin-top: 300px; 
+	text-align: center;
+	padding: 20px 10px 10px 20px;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-size: 12pt;
+}
+
+.audio{
+width: 300px;
+height: 10px;
+margin-top: 700px;
+text-decoration: none;
+border: 2px solid #006699;
+padding: 10px 20px 10px 20px;
+
+background-color: #D7BDE2
+} 
+#actividadaprobacion{
+	width: 980px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 5px; 
+	padding: 20px 10px 10px 20px;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: left;
+	font-size: 12pt;
+}
+#autor{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000; 
+	margin-top: 5px;
+}
+#autortitulo{
+font-family: "Tahoma", "Geneva", sans-serif;
+	text-align: center;
+	font-size: 12pt;
+}
+
+#autorizqui{
+	width: 300px;
+	height: 300px;
+	border: 0px solid #003;
+	float: left;
+	margin-top: 50px;
+}
+#autordere{
+	width: 600px;
+	height: auto; overflow: hidden;
+	border: 0px solid #003;
+	float: right;
+	margin-top: 50px;
+	font-family: "Tahoma", "Geneva", sans-serif;
+	font-style: justify;
+	font-size: 12pt;
+}
+#twitter{
+	width:220px;
+	height:600px;
+	border: 2px solid #003;
+	float: left;
+	margin-top: 8px;
+}
